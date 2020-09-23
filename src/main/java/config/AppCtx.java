@@ -27,9 +27,10 @@ public class AppCtx {
 	@Bean
 	public ChangePasswordService changePwdSvc() {
 		ChangePasswordService pwdSvc = new ChangePasswordService();
-		pwdSvc.setMemberDao(memberDao());
+		//pwdSvc.setMemberDao(memberDao());
 		return pwdSvc;
 	}
+	// 의존을 주입하지 않아도 스프링이 @Autowired가 붙인 필드에 해당 타입의 빈 객체를 찾아서 주입한다.
 
 	@Bean
 	public MemberPrinter memberPrinter() {
