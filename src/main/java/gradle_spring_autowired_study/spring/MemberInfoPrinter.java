@@ -1,4 +1,4 @@
-package spring;
+package gradle_spring_autowired_study.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

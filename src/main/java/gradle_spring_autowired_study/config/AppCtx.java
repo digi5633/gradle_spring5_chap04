@@ -1,17 +1,17 @@
-package config;
+package gradle_spring_autowired_study.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import spring.ChangePasswordService;
-import spring.MemberDao;
-import spring.MemberInfoPrinter;
-import spring.MemberListPrinter;
-import spring.MemberPrinter;
-import spring.MemberRegisterService;
-import spring.MemberSummaryPrinter;
-import spring.VersionPrinter;
+import gradle_spring_autowired_study.spring.ChangePasswordService;
+import gradle_spring_autowired_study.spring.MemberDao;
+import gradle_spring_autowired_study.spring.MemberInfoPrinter;
+import gradle_spring_autowired_study.spring.MemberListPrinter;
+import gradle_spring_autowired_study.spring.MemberPrinter;
+import gradle_spring_autowired_study.spring.MemberRegisterService;
+import gradle_spring_autowired_study.spring.MemberSummaryPrinter;
+import gradle_spring_autowired_study.spring.VersionPrinter;
 
 @Configuration
 public class AppCtx {

@@ -1,4 +1,4 @@
-package spring;
+package gradle_spring_autowired_study.spring;
 
 import java.time.LocalDateTime;
 
